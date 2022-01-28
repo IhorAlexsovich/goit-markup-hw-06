@@ -599,6 +599,7 @@ img{
 .button-portfolio,
 .order-button{
   cursor: pointer;
+  border:none;
 }
 .button-portfolio{ 
   background: #F5F4FA;
