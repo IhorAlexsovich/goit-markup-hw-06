@@ -421,7 +421,7 @@
                 <input type="email" name="email" id="email" class="footer-input-email"
                 placeholder="E-mail">
                 <label for="email" class="footer-label-email"></label>
-                <button class="button-footer-form"><p class="footer-button-text">Подписаться</p>
+                <button type="submit" class="button-footer-form"><p class="footer-button-text">Подписаться</p>
                     <svg class="form-send-icon" width="24" height="24">
                         <use href="./images/icon.svg#icon-send" >
                         </use>
@@ -480,9 +480,12 @@
                     <label for="" class="form-label">Коментарий</label>
                     <textarea name="" id=""  rows="10" class="form-coments" placeholder="Введите текст"></textarea>
                 </div>
-                <input type="checkbox" name="polisity" id="polisity" >
-                <label for="polisity" class="polisity-label">Соглашаюсь с рассылкой и принимаю <a href="" class="polisity-link">Условия договора</a></label>
-                
+                <div class="form-field checkbox-content">
+                <input type="checkbox" name="polisity" id="polisity" class="polisity-check visually-hidden" >
+              
+                <label for="polisity" class="polisity-label"><span>Соглашаюсь с рассылкой и принимаю <a href="" class="polisity-link">Условия договора</a></span></label>
+            </div>
+            <button type="submit" class="button-checkbox"><p class="checkbox-btn-text" >Отправить</p></button>
                 </form>
             </div>
 
